@@ -88,7 +88,7 @@ const _slideTiga = function () {
 function getRandomPosition(element) {
   var x = document.body.offsetHeight - element.clientHeight;
   var y = document.body.offsetWidth - element.clientWidth;
-  var randomX = Math.floor(Math.random() * 500);
+  var randomX = Math.floor(Math.random() * 350);
   var randomY = Math.floor(Math.random() * y);
   return [randomX, randomY];
 };
@@ -159,7 +159,7 @@ new TypeIt("#teks1", {
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Haii ulfaa!!", "Happy Birthday ya..", " ", "Alhamdulillah udah 23 tahun, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang bagus. Cuma ini yang baru bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga pelatihannya dilancarkan, semua impian, keinginan, dan harapan kamu bisa tercapai dan semoga bisa cepat ketemu, Aamiin."],
+   strings: ["Haii ulfaa!!", "Happy Birthday ya..", " ", "Alhamdulillah udah 23 tahun, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.", "Maaf ya aku gabisa kasih surprise yang bagus. Cuma ini yang baru bisa aku kasih ke kamu, aku harap kamu suka ya :)", "Sekali lagi, Selamat Ulang Tahun ya. Semoga pelatihannya dilancarkan, semua impian, keinginan, dan harapan kamu bisa tercapai dan semoga bisa cepat ketemu, Aamiin."],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
